@@ -40,8 +40,7 @@ class User {
 
     constructor()
 
-    constructor(id: Long?, username: String?, name: String?, email: String?, password: String?) {
-        this.id = id
+    constructor(username: String, name: String, email: String, password: String) {
         this.username = username
         this.name = name
         this.email = email
